@@ -13,7 +13,7 @@ const ImageLoader = () => {
   return (
     <section>
       <button onClick={handleLoadImage}>load image 🖼️</button>
-      <Image isError={isError} isLoading={isFetching} src={data} />
+      <Image isError={isError} isLoading={isFetching} src={data.image} />
     </section>
   );
 };
